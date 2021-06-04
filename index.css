@@ -1,6 +1,73 @@
-table, th, td,tr{
-    border: 1px solid grey;
-    border-collapse:collapse;
-    font-size:16px;
-    padding:15px;
-  }
+body{
+  background-color: #54c3ef;
+}
+.title{
+  text-align:center;
+  color: #fad744;
+  font-size:90px;
+  font-family: 'Caveat Brush', cursive;
+  text-shadow: 2px 5px #2b3252;
+  margin: 0;
+}
+.main_body{
+  width: 71%;
+  background-color: white;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 4% 16%;
+}
+.video {
+  display: inline-block;
+  width: 65%;
+  padding: 20px;
+}
+.only_video {
+  width: 100%;
+  height: 400px;
+}
+.views{
+  padding-left:20px;
+  font-size:24px;
+}
+.head{
+  font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+}
+.writings{
+  font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+.single_image{
+  margin: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.image{
+margin: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.img_section{
+   display: inline-block;
+  width: 28%;
+  border-left: 1px solid #ccc;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.size_img{
+  width:100%;
+}
